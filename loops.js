@@ -86,7 +86,6 @@ do {
 function doWhileLoop(array) {
   do {
     --array;
-    incrementVariable();
   } while (array.length > -1 && incrementVariable());
   return array;
 }
